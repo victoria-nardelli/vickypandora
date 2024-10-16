@@ -1,0 +1,45 @@
+
+h2{
+    text-align: center;
+    text-shadow: 0 0 15px;
+    color: rgb(255,255, 255);
+    font-size: 35px;
+}
+.hh3{
+    color: rgb(246, 250, 253);
+    font-size: 25px;
+}
+
+main{
+    background: #5C258D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 25px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+}
+.imgcon{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    padding-bottom: 10px;
+    display:grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.imgcon > img{
+max-width: 100%;
+height: 100%;
+justify-self: center;
+}
+
+
+
+ 
+
